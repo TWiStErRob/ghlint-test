@@ -57,9 +57,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PR_BASE_BRANCH: main
-          PR_TITLE: "Release v${{ steps.changes.outputs.version }}"
+          PR_TITLE: "Prepare next development version v${{ steps.changes.outputs.version }}"
           PR_BODY: |
-            Prepare release changes for ${{ steps.changes.outputs.version }}.
+            Prepare development version for ${{ steps.changes.outputs.version }}.
             
             -- _This PR was created by a [GitHub Actions Workflow][publish]'s [run][publish-run], see [Release Process][releasing]._
             
