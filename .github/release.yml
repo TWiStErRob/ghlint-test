@@ -12,33 +12,28 @@ changelog:
 
     - title: "✨ New Rules"
       labels:
-        - a:feature
+        #- a:new
         - in:rules
       exclude:
         labels:
           - is:invalid
           - is:wontfix
           - is:duplicate
+          # === a:new
+          - a:feature
+          - a:enhancement
+          - a:bug
+          - a:question
 
     - title: "🐛 Rule Changes"
       labels:
-        - a:bug
         - in:rules
       exclude:
         labels:
           - is:invalid
           - is:wontfix
           - is:duplicate
-
-    - title: "🐛 Rule Changes"
-      labels:
-        - a:enhancement
-        - in:rules
-      exclude:
-        labels:
-          - is:invalid
-          - is:wontfix
-          - is:duplicate
+          - a:question
 
     - title: "⬆️ Dependency Updates"
       labels:
