@@ -10,6 +10,15 @@ changelog:
       labels:
         - is:breaking
 
+    - title: "✨ New Features"
+      labels:
+        - a:feature
+      exclude:
+        labels:
+          - is:invalid
+          - is:wontfix
+          - is:duplicate
+
     - title: "✨ New Rules"
       labels:
         #- a:new
@@ -19,7 +28,7 @@ changelog:
           - is:invalid
           - is:wontfix
           - is:duplicate
-          # === a:new
+          # == "not a:new"
           - a:feature
           - a:enhancement
           - a:bug
