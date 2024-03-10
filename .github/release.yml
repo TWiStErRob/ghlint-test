@@ -1,23 +1,20 @@
 # https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes
 
 changelog:
-  exclude:
-    labels:
-      - ignore-for-release
-
   categories:
+
     - title: "💥 Breaking Changes"
       labels:
-        - is:breaking
+        - 'is:breaking'
 
     - title: "✨ New Features"
       labels:
-        - a:feature
+        - 'a:feature'
       exclude:
         labels:
-          - is:invalid
-          - is:wontfix
-          - is:duplicate
+          - 'is:invalid'
+          - 'is:wontfix'
+          - 'is:duplicate'
 
     - title: "✨ New Rules"
       labels:
@@ -25,35 +22,35 @@ changelog:
         - in:rules
       exclude:
         labels:
-          - is:invalid
-          - is:wontfix
-          - is:duplicate
+          - 'is:invalid'
+          - 'is:wontfix'
+          - 'is:duplicate'
           # == "not a:new"
-          - a:feature
-          - a:enhancement
-          - a:bug
-          - a:question
+          - 'a:feature'
+          - 'a:enhancement'
+          - 'a:bug'
+          - 'a:question'
 
     - title: "🐛 Rule Changes"
       labels:
-        - in:rules
+        - 'in:rules'
       exclude:
         labels:
-          - is:invalid
-          - is:wontfix
-          - is:duplicate
-          - a:question
+          - 'is:invalid'
+          - 'is:wontfix'
+          - 'is:duplicate'
+          - 'a:question'
 
     - title: "⬆️ Dependency Updates"
       labels:
-        - in:dependencies
+        - 'in:dependencies'
 
     - title: "🤫 Not Included"
       labels:
-        - is:invalid
-        - is:wontfix
-        - is:duplicate
+        - 'is:invalid'
+        - 'is:wontfix'
+        - 'is:duplicate'
 
     - title: "❓ Other Changes"
       labels:
-        - *
+        - '*'
