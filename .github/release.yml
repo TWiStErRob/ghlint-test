@@ -39,7 +39,7 @@ changelog:
       labels:
         - in:dependencies
 
-    - title: "🤫 Not included"
+    - title: "🤫 Not Included"
       labels:
         - is:invalid
         - is:wontfix
@@ -47,4 +47,4 @@ changelog:
 
     - title: "❓ Other Changes"
       labels:
-        - "*"
+        - *
