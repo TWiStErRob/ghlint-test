@@ -19,7 +19,7 @@ and [Object Calisthenics](https://www.google.com/?q=Object%20Calisthenics).
  * [x] Hand-crafted semantic rules and strongly typed object model.
  * [x] Opinionated workflow file formatter.
  * [x] GitHub Action to make it easier to select which files.
- * [ ] Support for the full workflow syntax.
+ * [x] Support for the full workflow syntax.
        Hopefully via generated code based on the JSON-schema.
  * [ ] Custom third-party rules (plugins)
  * [ ] action.yml validator via JSON-schema
