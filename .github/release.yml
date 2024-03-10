@@ -20,7 +20,7 @@ changelog:
           - is:wontfix
           - is:duplicate
 
-    - title: "🐛 Rule changes"
+    - title: "🐛 Rule Changes"
       labels:
         - a:bug
         - in:rules
@@ -30,7 +30,7 @@ changelog:
           - is:wontfix
           - is:duplicate
 
-    - title: "🐛 Rule changes"
+    - title: "🐛 Rule Changes"
       labels:
         - a:enhancement
         - in:rules
@@ -39,6 +39,10 @@ changelog:
           - is:invalid
           - is:wontfix
           - is:duplicate
+
+    - title: "⬆️ Dependency Updates"
+      labels:
+        - in:dependencies
 
     - title: "🤫 Not included"
       labels:
