@@ -21,7 +21,7 @@ and [Object Calisthenics](https://www.google.com/?q=Object%20Calisthenics).
  * [x] GitHub Action to make it easier to select which files.
  * [x] Support for the full workflow syntax.
        Hopefully via generated code based on the JSON-schema.
- * [ ] Custom third-party rules (plugins)
+ * [x] Custom third-party rules (plugins)
  * [ ] action.yml validator via JSON-schema
  * [ ] action.yml semantic rules
  * [ ] support for other types (e.g. issue templates/forms)
