@@ -17,7 +17,7 @@ and [Object Calisthenics](https://www.google.com/?q=Object%20Calisthenics).
  * [x] Validate the syntax of the workflow YAML files via JSON-schema
        (this is required for other steps).
  * [x] Hand-crafted semantic rules and strongly typed object model.
- * [ ] Opinionated workflow file formatter.
+ * [x] Opinionated workflow file formatter.
  * [x] GitHub Action to make it easier to select which files.
  * [ ] Support for the full workflow syntax.
        Hopefully via generated code based on the JSON-schema.
