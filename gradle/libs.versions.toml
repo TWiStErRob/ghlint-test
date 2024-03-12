@@ -18,7 +18,7 @@ buildConfig = "5.3.5"
 r8 = "8.2.47"
 
 junit-jupiter = "5.10.2"
-kotest = "5.8.0"
+kotest = "5.8.1"
 mockito-kotlin = "5.2.1"
 jsonSchema = "1.5.2"
 
